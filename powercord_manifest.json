@@ -1,0 +1,8 @@
+{
+    "name": "Lucord",
+    "version": "1.0.0",
+    "author": ["Wme#9999", "Nate's World#2039"],
+    "description": "",
+    "license": "Unlicensed",
+    "theme": "Clients/theme.css"
+  }
