@@ -1,0 +1,17 @@
+name: Discord Webhook
+
+on: [push]
+
+jobs:
+  SendWebhook:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      uses: actions/checkout@v2.3.4
+      
+    - name: Run Discord Webhook
+      uses: WmeDiscord/BetterWebhooks@main
+      with:
+        id: ${{ secrets.WEBHOOK_ID }}
+        token: ${{ secrets.WEBHOOK_TOKEN }}
