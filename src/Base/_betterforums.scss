@@ -13,12 +13,12 @@
 .container-2qVG6q::before {
   content: "";
   width: 100%;
-  padding-left: 10px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
   margin: -12px;
   height: 38px;
   position: absolute;
-  background-color: black;
-  opacity: 0.2;
+  background-color: var(--background-secondary-alt);
 }
 .message-1zs6Od {
   max-height: unset;
@@ -53,4 +53,17 @@
 }
 .tags-2CaEuN .pill-3pRQlO[aria-label] {
   display: none;
+}
+.container-2qVG6q {
+overflow: visible;
+}
+.body-hCVwsC.hasUnreads-3kKLnS .newBadge-1LcB6t::after {
+  content: "";
+  position: absolute;
+  border-radius: 80px;
+  width: 5px;
+  height: 90%;
+  background-color: var(--interactive-active);
+  left: -13px;
+  top: 5%;
 }
