@@ -117,12 +117,34 @@ cd vizality/addons/themes && git clone http://lucord.wmeluna.com
 </details>
 
 ## Contributers
+
 <table align="center">
   <tr>
-    <td align="center"><a href="http://lucord.wmeluna.com"><img src="https://avatars.githubusercontent.com/u/46545277?v=4" width="100px;" alt=""/><br /><sub><b>Wme#9999</b></sub></a><br /></td>
-    <td align="center"><a href="http://lucord.wmeluna.com"><img src="https://avatars.githubusercontent.com/u/103780769?s=400&u=a991190fcfabb67cf1fd01cdd720b0f84a5dd1a5&v=4" width="100px;" alt=""/><br /><sub><b>Nate's World#2039</b></sub></a><br /></td>
+    <td align="center">
+      <a href="http://lucord.wmeluna.com">
+        <img src="https://avatars.githubusercontent.com/u/46545277?v=4" width="100px;" alt="Wme"/>
+        <br />
+        <sub>
+          <b>Wme#9999</b>
+        </sub>
+      </a>
+      <br />
+      <a href="https://github.com/WmeLuna" title="Theme Owner">Theme Owner</a>
+      </td>
+    <td align="center">
+      <a href="http://lucord.wmeluna.com">
+        <img src="https://avatars.githubusercontent.com/u/103780769?s=400&u=a991190fcfabb67cf1fd01cdd720b0f84a5dd1a5&v=4" width="100px;" alt="Nate's World"/>
+        <br />
+        <sub>
+          <b>Nate's World#2039</b>
+        </sub>
+      </a>
+      <br />
+      <a href="https://github.com/NatesWorld21" title="Theme Owner">Theme Owner</a>
+    </td>
+  </tr>
 </table>
 
 ## Support
 
-If you have problems, found some bugs or have wishes for this theme, create a [issue](https://github.com/wmediscord/Lucord/issues) or join our [discord](https://discord.gg/https://discord.gg/FRKDn98rgv) community and communicate with us.
+*If you have problems, found some bugs or have wishes for this theme, create a [issue](https://github.com/wmediscord/Lucord/issues) or join our [discord](https://discord.gg/https://discord.gg/FRKDn98rgv) community and communicate with us.*
