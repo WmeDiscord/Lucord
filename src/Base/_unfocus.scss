@@ -1,0 +1,17 @@
+//https://discord.com/channels/86004744966914048/836694789898109009/1001213705826086923
+/* Hide New Message Stuff When Unfocused */
+/* Red New Message Bar */
+html:not(.app-focused) .isUnread-3Lojb- {
+    border-color: transparent
+}
+.isUnread-3Lojb- {
+    transition: .15s
+}
+
+/* New Message Bar */
+html:not(.app-focused) .newMessagesBar-1hF-9G {
+    opacity: 0
+}
+.newMessagesBar-1hF-9G {
+    transition: .15s
+}

@@ -1,0 +1,17 @@
+
+{
+    // Live Sass Compiler
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.watchOnLaunch": true,
+    "liveSassCompile.settings.autoprefix": ["defaults"],
+    "liveSassCompile.settings.showOutputWindowOn": "None",
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "compressed",
+        "extensionName": ".css",
+        "savePath": null
+      }
+    ],
+    // Prettier
+    "prettier.printWidth": 124,
+  }

@@ -1,0 +1,24 @@
+.bd-addon-card{
+.bd-addon-description{
+    min-height: 65px;
+}
+.bd-addon-footer{
+    order: -1;
+    height: 0;
+    padding: 0!important;
+    display: flex!important;
+    justify-content: flex-end!important;
+    .bd-support-bar {display: none !important;}
+
+}
+.bd-addon-footer .bd-toolbar {
+    position: absolute;
+    padding: 18px;
+    margin-right: 50px;
+    .bd-toolbutton {
+        padding: 0!important;
+        background: unset !important;
+        color: var(--interactive-normal) !important;
+    }
+}
+}

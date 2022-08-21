@@ -1,0 +1,52 @@
+/*spotify*/
+.powercord-spotify{
+  .spotify-cover{
+    border-radius: 4px !important;
+  }
+  :root & .spotify-buttons button {
+    color: var(--interactive-normal) !important;
+    &:hover {
+      color: var(--interactive-hover) !important;
+    }
+  }
+  .spotify-extra-controls{
+    display: none !important;
+  }
+  .spotify-artist {
+    font-weight: 400;
+  }
+  .spotify-title .title-338goq{
+    text-overflow: clip;
+    font-size: 100%;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  .spotify-seek {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+    margin-top: -4px !important;
+  }
+  .spotify-seek-elements {
+    order: 2;
+    opacity: 1 !important;
+    height: 12px !important;
+    padding: 0 !important;
+    font-weight: 400 !important;
+    .spotify-seek-duration {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  .spotify-seek-bar{
+    order: 1;
+    height: 4px !important;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    background-color: rgba(79, 84, 92, 0.16);
+    .spotify-seek-bar-progress{
+      border-radius: 2px;
+      background: var(--text-normal);
+    }
+  }
+}

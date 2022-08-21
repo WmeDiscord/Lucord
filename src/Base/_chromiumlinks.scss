@@ -1,0 +1,38 @@
+//https://discord.com/channels/538759280057122817/755005803303403570/994083408290521148
+.theme-dark {
+    --linkpreview-background: #35363a;
+    --linkpreview-color: #e8eaed;
+    --linkpreview-border: #2f3033;
+  }
+  .theme-light {
+    --linkpreview-background: #dee1e6;
+    --linkpreview-color: #3c4043;
+    --linkpreview-border: transparent;
+  }
+  .markup-eYLPri .anchor-1MIwyf:after {
+    content: attr(href);
+    display: flex;
+    align-items: center;
+    z-index: 99999;
+    background: var(--linkpreview-background);
+    line-height: normal;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: var(--linkpreview-color);
+    font-size: 12px;
+    padding: 3px 4px;
+    padding-right: 6px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: 200ms ease;
+    white-space: nowrap;
+    box-shadow: inset 0 0 0 1px var(--linkpreview-border);
+    border-top-right-radius: 3px;
+    pointer-events: none;
+  }
+  .markup-eYLPri .anchor-1MIwyf:hover:after {
+    opacity: 1;
+  }

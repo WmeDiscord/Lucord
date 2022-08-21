@@ -1,0 +1,6 @@
+.pc-notice-container:not(.pc-notice-closing) {
+    visibility: hidden;
+}
+.pc-notice-container:not(.pc-notice-closing):last-of-type {
+    visibility: visible;
+}
