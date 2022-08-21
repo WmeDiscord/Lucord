@@ -121,7 +121,7 @@ cd vizality/addons/themes && git clone http://lucord.wmeluna.com
 <table align="center">
   <tr>
     <td align="center">
-      <a href="http://lucord.wmeluna.com">
+      <a href="https://discord.com/users/865632950443835392" title="Wme#9999">
         <img src="https://avatars.githubusercontent.com/u/46545277?v=4" width="100px;" alt="Wme"/>
         <br />
         <sub>
@@ -132,7 +132,7 @@ cd vizality/addons/themes && git clone http://lucord.wmeluna.com
       <a href="https://github.com/WmeLuna" title="Theme Owner">Theme Owner</a>
       </td>
     <td align="center">
-      <a href="http://lucord.wmeluna.com">
+      <a href="https://discord.com/users/964617639454441484" title="Nate's World#2039">
         <img src="https://avatars.githubusercontent.com/u/103780769?s=400&u=a991190fcfabb67cf1fd01cdd720b0f84a5dd1a5&v=4" width="100px;" alt="Nate's World"/>
         <br />
         <sub>
