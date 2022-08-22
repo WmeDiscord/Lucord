@@ -1,16 +1,21 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/103780769/185723428-2d63915e-3dec-452a-bc31-edc91a0e97d1.png">
+  <img src="https://media.discordapp.net/attachments/1004747971390361702/1011054772201193573/highres-text-logo.png">
 </p>
 
 # Lucord V1.0.0
 
-[![Version](https://img.shields.io/github/manifest-json/v/WmeDiscord/Lucord?color=FCB033&label=Version&logo=Github&style=for-the-badge)](.github/docs/changelog.md)
-[![License](https://img.shields.io/github/license/WmeDiscord/Lucord?color=FCB033&label=License&logo=Github&style=for-the-badge)](license)
-[![Downloads](https://img.shields.io/github/downloads/WmeDiscord/Lucord/total?color=FCB033&label=Downloads&logo=Github&style=for-the-badge)](https://github.com/WmeDiscord/Lucord/releases)
-[![Discord](https://img.shields.io/discord/1010365335200874627?color=FCB033&label=Discord&logo=Discord&logoColor=fff&style=for-the-badge)](https://discord.gg/FRKDn98rgv)
+[![Version](https://img.shields.io/github/manifest-json/v/WmeDiscord/Lucord?color=14071B&labelColor=2E343E&label=Version&logo=Github&style=for-the-badge)](.github/docs/changelog.md)
+[![License](https://img.shields.io/github/license/WmeDiscord/Lucord?color=14071B&labelColor=2E343E&label=License&logo=Github&style=for-the-badge)](license)
+[![Downloads](https://img.shields.io/github/downloads/WmeDiscord/Lucord/total?color=14071B&labelColor=2E343E&label=Downloads&logo=Github&style=for-the-badge)](https://github.com/WmeDiscord/Lucord/releases)
+[![Discord](https://img.shields.io/discord/1010365335200874627?color=14071B&labelColor=2E343E&label=Discord&logo=Discord&logoColor=fff&style=for-the-badge)](https://discord.gg/FRKDn98rgv)
 
 **Lucord** is currently a WIP theme for [Discord](https://discord.com)!
 
+<h2 align="center">Preview</h2>
+<p align="center">
+<img src="https://media.discordapp.net/attachments/1004747971390361702/1011071934890520706/unknown.png">
+</p>
+  
 ## Getting Started
 
 To use **Lucord** you need a client mod or a browser plugin that allows you to load custom CSS. There are several possibilities, the first and recommended variant would be a client mod, for example [Powercord](https://github.com/powercord-org/powercord), [Better Discord](https://github.com/BetterDiscord/BetterDiscord) or [GooseMod](https://github.com/GooseMod/GooseMod).
