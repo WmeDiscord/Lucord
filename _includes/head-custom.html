@@ -1,6 +1,6 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
-  document.onload = function {
+  document.onload = function() {
     const mdapply = document.querySelector('details');
     mdapply.forEach(element => element.innerHTML = marked.parse(element.innerHTML));
   }
