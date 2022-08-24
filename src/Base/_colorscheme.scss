@@ -649,6 +649,14 @@ button:not(.searchBarComponent-3N7dCG):not(.colorPickerSwatch-RTUGRR):not(.bd-bu
     background-color: var(--background-primary);
 }
 
+/* ---- Reply ---- */
+.repliedMessage-3Z6XBG:before,
+.cozy-VmLDNB.hasThread-3h-KJV:after{
+    border-color: var(--background-accent)
+}
+.cozy-VmLDNB.mentioned-Tre-dv.hasThread-3h-KJV:after {
+    border-color: var(--background-tertiary)
+}
 /* ---- Others ---- */
 /* Favorite GIF */
 .gifFavoriteButton-2IttKp:hover {
