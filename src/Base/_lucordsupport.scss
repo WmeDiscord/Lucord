@@ -1,9 +1,24 @@
+// Server icon
 .container-1NXEtd[aria-label="Lucord Support (server)"] header .headerContent-2SNbie::before {
-    content:"";
-    margin-left: -10px;
-    margin-bottom: -3px;
-    display: inline-block;
-    background-image: url('https://lucord.wmeluna.com/Assets/Logos/highres-moon.png');
-    background-size:32px;
-    height: 32px; width: 32px;;
+  content: "";
+  margin-left: -10px;
+  margin-bottom: -3px;
+  display: inline-block;
+  background-image: url("https://lucord.wmeluna.com/Assets/Logos/highres-moon.png");
+  background-size: 32px;
+  height: 32px;
+  width: 32px;
+}
+// Github Webhook
+.chatContent-3KubbW[aria-label="🐙︱github (channel)"] {
+    .username-h_Y3Us{color: #e67e22;}
+    .botText-1fD6Qk {
+    font-size: 0;
+    &::before {
+      content: "Github";
+      font-weight: 500;
+      font-size: 11px;
+      vertical-align: bottom;
+    }
+  }
 }
