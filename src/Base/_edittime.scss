@@ -1,6 +1,7 @@
 //https://discord.com/channels/86004744966914048/836694789898109009/949934727266177045
 /* edited text */
-.message-2CShn3:not(.compact-2Nkcau) {
+.message-2CShn3:not(.compact-2Nkcau),
+.left-r1N3TH .message-1zs6Od {
 .timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
     content: " (" attr(aria-label) ")";
     color: var(--text-muted);
