@@ -30,6 +30,7 @@ jobs:
         run: |
           mv .github/_includes ../out/_includes
           mv README.md ../out/README.md
+          mv CNAME ../out/CNAME
           echo ":root {--LU-version:\"$(git rev-parse HEAD | cut -c 1-7)\"}" > ../out/version.css
           
       - name: Commit Changes
