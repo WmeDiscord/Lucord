@@ -35,4 +35,4 @@ jobs:
           mv ../out/* . 
           git add --all
           git commit -m 'Push build'
-          git push origin gh-pages
+          git push --force origin gh-pages
