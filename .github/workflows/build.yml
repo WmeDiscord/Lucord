@@ -28,6 +28,7 @@ jobs:
           
       - name: Commit Changes
         run: |
+          cd pages
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'
           git add .
@@ -37,5 +38,6 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
           directory: pages
           branch: gh-pages
