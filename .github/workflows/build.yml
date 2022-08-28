@@ -28,7 +28,7 @@ jobs:
           
       - name: Move GH Pages Stuff
         run: |
-          mv .github/_layout ../out/_layout
+          mv .github/_includes ../out/_includes
           mv README.md ../out/README.md
           
       - name: Commit Changes
