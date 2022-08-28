@@ -1,0 +1,26 @@
+@import url(https://lucord.wmeluna.com/version.css);
+
+.info-3pQQBb::after {
+    display: block;
+    content: "Version (" var(--LU-version) ")";
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--text-muted);
+    margin-top: 30px;
+    white-space: pre;
+    text-transform: none;
+  }
+.info-3pQQBb::before {
+    content: "Lucord";
+    position: absolute;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: var(--font-display);
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--channels-default);
+    width: 86%;
+    padding-top: 12px;
+    pointer-events: none;
+    margin-top: 50px;
+  }

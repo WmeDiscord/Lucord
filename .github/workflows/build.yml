@@ -1,0 +1,46 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_css:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source Git branch
+        uses: actions/checkout@v3
+        with:
+            ref: main
+
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.4.9
+        with:
+          source: | 
+            theme.scss
+          destination: | 
+            theme.css
+
+      - name: Optimize css using CSSO
+        run: |
+          npm install -g csso-cli
+          mkdir -p ../out
+          csso theme.css -o ../out/theme.css
+          
+      - name: Move GH Pages Stuff
+        run: |
+          mv .github/_includes ../out/_includes
+          mv README.md ../out/README.md
+          echo ":root {--LU-version:\"$(git rev-parse HEAD | cut -c 1-7)\"}" > ../out/version.css
+          
+      - name: Commit Changes
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+          git rev-parse HEAD | cut -c 1-7 > /tmp/commit
+          git checkout --orphan gh-pages
+          git rm -rf .
+          mv ../out/* . 
+          echo ""
+          git add --all
+          git commit -m 'Push build'
+          git push --force origin gh-pages
