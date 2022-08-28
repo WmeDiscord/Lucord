@@ -26,6 +26,11 @@ jobs:
           mkdir -p ../out
           csso theme.css -o ../out/theme.css
           
+      - name: Move GH Pages Stuff
+        run: |
+          mv .github/_layout ../out/_layout
+          mv README.md ../out/README.md
+          
       - name: Commit Changes
         run: |
           git config --local user.email 'action@github.com'
