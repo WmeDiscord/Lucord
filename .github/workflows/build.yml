@@ -30,14 +30,17 @@ jobs:
         run: |
           mv .github/_includes ../out/_includes
           mv README.md ../out/README.md
+          echo ":root {--LU-version:\"$(git rev-parse HEAD | cut -c 1-7)\"}" > ../out/version.css
           
       - name: Commit Changes
         run: |
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'
+          git rev-parse HEAD | cut -c 1-7 > /tmp/commit
           git checkout --orphan gh-pages
           git rm -rf .
           mv ../out/* . 
+          echo ""
           git add --all
           git commit -m 'Push build'
           git push --force origin gh-pages
