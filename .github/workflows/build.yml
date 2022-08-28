@@ -23,6 +23,7 @@ jobs:
       - name: Optimize css using CSSO
         run: |
           npm install -g csso-cli
+          mkdir -p ../out
           csso theme.css -o ../out/theme.css
           
       - name: Commit Changes
