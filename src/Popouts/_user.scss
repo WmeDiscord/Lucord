@@ -1,0 +1,62 @@
+.userPopout-3fydSP {
+  padding: 0;
+  .userPopoutInner-PA9zkU::before{
+    height: 100%;
+    width: 100%;
+  }
+   .avatarWrapper-3y0KZ1 {
+    top: 72px;
+    left: 124px;
+    right: 124px;
+  }
+  .banner-2boKnS {
+    height: 128px;
+  }
+  .profileBadges-31rDHI {
+    background-color: unset;
+    position: absolute;
+    align-self: unset;
+    top: 136px;
+    right: 16px;
+    z-index: 8;
+  }
+  .userText-148fun {
+    position: absolute;
+    top: -28px;
+    .nickname-2rimyL {
+        display: none;
+    }
+    .userTagWithNickname-3-znkC {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 600;
+        font-family: var(--font-display);
+        .username-3JLfHz{
+            color: var(--interactive-active);
+        }
+    }
+  }
+  .divider-1tWBgZ {
+    display: none;
+  }
+  .overlayBackground-arbZMT {
+    margin-top: 60px;
+    overflow: visible;
+  }
+  .overlayBackground-arbZMT > .section-3FmfOT ~ .section-3FmfOT::before {
+    content: "Status";
+    display: flex;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: var(--header-primary);
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  .overlayBackground-arbZMT > .section-3FmfOT:first-child {
+    & > div {
+      height: 0;
+    }
+    padding: 0 6px;
+  }
+}
