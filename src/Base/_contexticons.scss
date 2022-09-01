@@ -3,6 +3,7 @@
     display: none;
 }
 .item-1OdjEX#rtc-channel-output::before,
-.item-1OdjEX#rtc-channel-input::before {
+.item-1OdjEX#rtc-channel-input::before,
+.item-1OdjEX#stream-context-user-volume::before {
     content: unset;
 }
