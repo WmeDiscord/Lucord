@@ -1,3 +1,5 @@
+name: Move to gh-pages branch
+
 on:
   push:
     branches:
