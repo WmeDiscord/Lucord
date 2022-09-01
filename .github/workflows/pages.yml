@@ -30,6 +30,7 @@ jobs:
           
       - name: Move GH Pages Stuff
         run: |
+          mkdir -p ../out
           mv theme.css ../out/theme.css
           mv .github/_includes ../out/_includes
           mv README.md ../out/README.md
