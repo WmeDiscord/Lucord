@@ -1,13 +1,10 @@
+@import '../mixins';
 // Server icon
 .container-1NXEtd[aria-label="Lucord Support (server)"] header .headerContent-2SNbie::before {
   content: "";
   margin-left: -10px;
-  margin-bottom: -3px;
   display: inline-block;
-  background-image: url("https://lucord.wmeluna.com/Assets/Logos/highres-moon.png");
-  background-size: 32px;
-  height: 32px;
-  width: 32px;
+  @include psu-image(url("https://lucord.wmeluna.com/Assets/Logos/highres-moon.png"), 32px)
 }
 // Github Webhook
 .chatContent-3KubbW[aria-label="🐙︱github (channel)"] {

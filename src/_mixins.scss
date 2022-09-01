@@ -1,0 +1,7 @@
+@mixin psu-image($url, $h, $w:$h) {
+    background-image: $url;
+    background-repeat: no-repeat;
+    background-size: $w $h;
+    height: $h;
+    width: $w;
+}

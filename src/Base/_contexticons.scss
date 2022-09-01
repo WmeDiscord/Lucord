@@ -2,3 +2,7 @@
 .item-1OdjEX:not([aria-haspopup="true"]) .iconContainer-1-SsTR {
     display: none;
 }
+.item-1OdjEX#rtc-channel-output::before,
+.item-1OdjEX#rtc-channel-input::before {
+    content: unset;
+}
