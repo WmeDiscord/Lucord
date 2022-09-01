@@ -14,24 +14,22 @@ jobs:
         with:
             ref: main
 
-      - name: Compile CSS from SCSS files
-        uses: gha-utilities/sass-build@v0.4.9
-        with:
-          source: | 
-            theme.scss
-          destination: | 
-            theme.css
+      #- name: Compile CSS from SCSS files
+        #uses: gha-utilities/sass-build@v0.4.9
+        #with:
+          #source: | 
+            #theme.scss
+          #destination: | 
+            #theme.css
 
-      #- name: Optimize css using CSSO
-        #run: |
-          #npm install -g csso-cli
-          #mkdir -p ../out
-          #csso theme.css -o ../out/theme.css
+      - name: Optimize css using CSSO
+        run: |
+          npm install -g csso-cli
+          mkdir -p ../out
+          csso theme.css -o ../out/theme.css
           
       - name: Move GH Pages Stuff
         run: |
-          mkdir -p ../out
-          mv theme.css ../out/theme.css
           mv .github/_includes ../out/_includes
           mv README.md ../out/README.md
           mv CNAME ../out/CNAME
