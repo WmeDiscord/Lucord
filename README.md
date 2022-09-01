@@ -11,9 +11,12 @@
 
 **Lucord** is currently a WIP theme for [Discord](https://discord.com)!
 
-<h2 align="center">Preview</h2>
+<h2 align="center">Preview</h2>   
+
+###### Automatically generated, [ThemePreview](https://github.com/Gibbu/ThemePreview) By Gibbu   
+
 <p align="center">
-<img src="https://media.discordapp.net/attachments/1004747971390361702/1011071934890520706/unknown.png">
+<img src="https://lucord.wmeluna.com/Assets/screenshot.png">
 </p>
   
 ## Getting Started
