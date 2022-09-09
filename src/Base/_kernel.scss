@@ -1,4 +1,58 @@
-@import url(https://css.wmeluna.com/kernel.css);
-[aria-controls="kernel-snippets-tab"] {
-    order:-3;
+// Better Discord
+.bdcompat-settings-item-settings.item-3XjbnG.themed-2-lozF {
+  overflow: visible !important;
+  margin-top: 28px;
+}
+
+.bdcompat-settings-item-settings.item-3XjbnG.themed-2-lozF::after {
+  content: "BetterDiscord";
+  position: absolute;
+  top: -35px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--channels-default);
+  width: 90%;
+  border-top: 0px var(--background-modifier-accent) solid;
+  padding-top: 14px;
+  pointer-events: none;
+}
+// Powercord
+.pccompat-settings-pc-moduleManager-plugins-item.item-3XjbnG.themed-2-lozF {
+  overflow: visible !important;
+  margin-top: 28px;
+}
+
+.pccompat-settings-pc-moduleManager-plugins-item.item-3XjbnG.themed-2-lozF::after {
+  content: "Powercord";
+  position: absolute;
+  top: -35px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font-display);
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--channels-default);
+  width: 90%;
+  border-top: 0px var(--background-modifier-accent) solid;
+  padding-top: 14px;
+  pointer-events: none;
+}
+
+/* No Icons */
+.bd-logo,
+.pc-logo {
+  display: none !important;
+}
+
+/* Remove Separator */
+.separator-2wx7h6 {
+  display: none;
+}
+
+/* Remove Nitro Icon */
+.premiumLabel-3HPvdB svg {
+  display: none;
 }
