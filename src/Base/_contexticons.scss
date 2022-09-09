@@ -7,3 +7,8 @@
 .item-1OdjEX#stream-context-user-volume::before {
     content: unset;
 }
+.item-1OdjEX[id^="textarea-context-correction"]::before {
+    --icon: unset;
+    margin-right: calc(var(--context-icon-spacing) + var(--context-icon-size));
+    width: 0;
+}
