@@ -40,7 +40,7 @@ This theme can be used in different ways, with a client mod or in the browser wi
 * **Step 2:** Paste the code above your theme code or load it via Quick CSS.
 
 ```css
-@import url("http://lucord.wmeluna.com/Clients/lucord.theme.css");
+@import url("https://lucord.wmeluna.com/theme.css");
 ```
 </details>
 
@@ -65,12 +65,12 @@ This theme can be used in different ways, with a client mod or in the browser wi
 
 * **Step 3:** Install the theme with this link:
 ```
-http://lucord.wmeluna.com/Clients/lucord.theme.css
+https://lucord.wmeluna.com/Clients/lucord.theme.css
 ```
 
 * **Optional:** Add theme store repo link:
 ```
-http://lucord.wmeluna.com
+https://lucord.wmeluna.com
 ```
 </details>
 
@@ -93,10 +93,7 @@ http://lucord.wmeluna.com
 
 ```bash
 cd powercord/src/Powercord/themes
-```
-
-```bash
-git clone https://github.com/wmediscord/Lucord.git
+git clone https://github.com/WmeDiscord/Lucord
 ```
 </details>
 
@@ -120,7 +117,8 @@ git clone https://github.com/wmediscord/Lucord.git
 * **Step 2:** Paste the below code in your terminal:
 
 ```bash
-cd vizality/addons/themes && git clone http://lucord.wmeluna.com
+cd vizality/addons/themes 
+git clone https://github.com/WmeDiscord/Lucord
 ```
 </details>
 
