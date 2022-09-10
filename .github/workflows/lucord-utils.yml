@@ -52,7 +52,7 @@ jobs:
           
       - name: Commit Changes
         run: |
-          git config --local user.email 'action@github.com'
+          git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git config --local user.name 'GitHub Action'
           git rev-parse HEAD | cut -c 1-7 > /tmp/commit
           git checkout --orphan gh-pages
@@ -84,7 +84,7 @@ jobs:
           
       - name: Commit
         run: |
-          git config --local user.email 'action@github.com'
+          git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git config --local user.name 'GitHub Action'
           git add --all
           git commit -m 'Update Preview'
