@@ -1,4 +1,4 @@
-name: Move to gh-pages branch
+name: Lucord Utils
 
 on:
   push:
@@ -6,7 +6,21 @@ on:
       - main
 
 jobs:
-  build_css:
+  send-webhook:
+    name: Discord Webhook
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      
+    - name: Run Discord Webhook
+      uses: WmeDiscord/BetterWebhooks@main
+      with:
+        id: ${{ secrets.WEBHOOK_ID }}
+        token: ${{ secrets.WEBHOOK_TOKEN }}
+        repo-stats: true
+
+  pages:
+    name: Move to gh-pages branch
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source Git branch
@@ -48,3 +62,30 @@ jobs:
           git add --all
           git commit -m 'Push build'
           git push --force origin gh-pages
+
+  screenshot:
+    name: Screenshot
+    needs: pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        with:
+            ref: gh-pages
+
+        uses: actions/checkout@v3
+      - name: Create Screenshot
+        uses: alexrogalskiy/github-action-screenshots@master
+        with:
+          url: "https://gibbu.github.io/ThemePreview/?file=https://lucord.wmeluna.com/theme.css"
+          name: 'screenshot'
+          path: 'Assets'
+          width: 1280
+          height: 720
+          
+      - name: Commit
+        run: |
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'GitHub Action'
+          git add --all
+          git commit -m 'Update Preview'
+          git push
