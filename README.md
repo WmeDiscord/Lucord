@@ -130,7 +130,7 @@ cd vizality/addons/themes && git clone http://lucord.wmeluna.com
   <tr>
     <td align="center">
       <a href="https://discord.com/users/865632950443835392" title="Wme#9999">
-        <img src="https://avatars.githubusercontent.com/u/46545277?v=4" width="100px;" alt="Wme"/>
+        <img src="https://api.lanyard.rest/865632950443835392.png" width="100px;" alt="Wme"/>
         <br />
         <sub>
           <b>Wme#9999</b>
@@ -141,7 +141,7 @@ cd vizality/addons/themes && git clone http://lucord.wmeluna.com
       </td>
     <td align="center">
       <a href="https://discord.com/users/964617639454441484" title="Nate's World#2039">
-        <img src="https://avatars.githubusercontent.com/u/103780769?s=400&u=a991190fcfabb67cf1fd01cdd720b0f84a5dd1a5&v=4" width="100px;" alt="Nate's World"/>
+        <img src="https://api.lanyard.rest/964617639454441484.png" width="100px;" alt="Nate's World"/>
         <br />
         <sub>
           <b>Nate's World#2039</b>
