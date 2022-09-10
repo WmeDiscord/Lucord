@@ -1,10 +1,13 @@
 {% include meta.html %}
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://unpkg.com/@highlightjs/cdn-assets/highlight.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets/styles/dark.min.css">
 <script>
   document.addEventListener("DOMContentLoaded", function(){
     const mdapply = document.querySelectorAll('details');
     mdapply.forEach(element => element.innerHTML = marked.parse(element.innerHTML).replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"'));
+    hljs.highlightAll();
   });
 </script>
 <style>
