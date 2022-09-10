@@ -4,7 +4,7 @@
 <script>
   document.addEventListener("DOMContentLoaded", function(){
     const mdapply = document.querySelectorAll('details');
-    mdapply.forEach(element => element.innerHTML = marked.parse(element.innerHTML));
+    mdapply.forEach(element => element.innerHTML = marked.parse(element.innerHTML).replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"'));
   });
 </script>
 <style>
