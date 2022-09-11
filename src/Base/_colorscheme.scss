@@ -1,5 +1,3 @@
-//@import url(https://squirrelkiev.github.io/NewcordRevived/src/main.css);
-//@import url(https://squirrelkiev.github.io/NewcordRevived/src/stuff/colors/basic.colors.css);
 @import url(https://nyri4.github.io/Discolored/main.css);
 // forums fix
 .theme-dark .container-3wLKDe {
@@ -151,6 +149,19 @@ button:not(.searchBarComponent-3N7dCG):not(.colorPickerSwatch-RTUGRR):not(.bd-bu
 .theme-dark .outer-2JOHae.active-1W_Gl9,
 .theme-dark .outer-2JOHae.interactive-2zD88a:hover {
     background-color: var(--background-floating);
+}
+// Discovery 
+.theme-dark .pageWrapper-2PwDoS {
+    background-color: var(--background-primary);
+}
+// Stream preview
+.theme-dark .streamPreview-I7itZ6 {
+    background-color: var(--background-secondary-alt);
+    padding: 5px;
+    .previewContainer-35LFgt {
+        border-radius: 5px;
+        overflow: hidden;
+    }
 }
 
 /* ------------------------------------------------------------ 🐻 STATUS AND STATUS PICKER ------------------------------------------------------------ */
