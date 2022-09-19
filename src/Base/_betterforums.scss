@@ -10,6 +10,10 @@
   transform: translate(2.5px, 2.5px);
 }
 
+.theme-dark .container-2qVG6q.isOpen-2OXbFs {
+  background: var(--background-secondary);
+}
+
 .container-2qVG6q::before {
   content: "";
   width: 100%;
@@ -77,15 +81,17 @@
 .container-2qVG6q {
 overflow: visible;
 }
-.body-hCVwsC.hasUnreads-3kKLnS .newBadge-1LcB6t::after {
+.body-hCVwsC.hasUnreads-3kKLnS::before
+//.newBadge-1LcB6t::before
+  {
   content: "";
   position: absolute;
-  border-radius: 80px;
-  width: 5px;
-  height: 90%;
-  background-color: var(--interactive-active);
-  left: -13px;
-  top: 5%;
+  width: 20%;
+  height: 38px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255,255,255, 10%) 100%);
+  border-top-right-radius: 12px;
+  right: 0;
+  top: 0;
 }
 
 .container-2qVG6q {
