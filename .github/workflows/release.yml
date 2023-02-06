@@ -29,7 +29,15 @@ jobs:
       - name: Build TypeScript and bundle into asar
         run: pnpm run bundle
 
-      - uses: ncipollo/release-action@v1
-        with:
-          artifacts: "bundle/*"
-          makeLatest: true
+      - name: Release
+        run: |
+          git tag -d v1.0.0 || true
+          git push origin --delete v1.0.0 || true
+          git tag v1.0.0
+          git push origin v1.0.0
+          gh release delete v1.0.0 -y || true
+          gh release create v1.0.0 -t "v1.0.0" bundle/*
+      #- uses: ncipollo/release-action@v1
+      #  with:
+      #    artifacts: "bundle/*"
+      #    makeLatest: true
