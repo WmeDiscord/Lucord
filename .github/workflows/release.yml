@@ -37,6 +37,8 @@ jobs:
           git push origin v1.0.0
           gh release delete v1.0.0 -y || true
           gh release create v1.0.0 -t "v1.0.0" bundle/*
+        env:
+          GH_TOKEN: ${{ github.token }}
       #- uses: ncipollo/release-action@v1
       #  with:
       #    artifacts: "bundle/*"
