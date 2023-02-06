@@ -1,4 +1,29 @@
 /*spotify*/
+.spotify-modal-root {
+  --spotify: var(--interactive-normal);
+  --spotify-darker: var(--interactive-hover);
+  .header .track-info {
+    max-width: 170px;
+  }
+  .controls {
+    display: flex!important;
+  }
+  .header{
+    padding-bottom: 0;
+  }
+  .dock {
+    .progress-display {order:2;top:5px}
+    .seek-bar {order:1;top:0}
+    .controls {order:3;
+      svg {background-color: unset;}
+    }
+  }
+}
+
+
+
+
+/*old spotify plugin*/
 .powercord-spotify{
   .spotify-cover{
     border-radius: 4px !important;
