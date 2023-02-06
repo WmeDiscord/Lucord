@@ -1,8 +1,18 @@
 {
+    "id": "com.wmeluna.Lucord",
     "name": "Lucord",
     "version": "1.0.0",
-    "author": ["Wme#9999", "Nate's World#2039"],
-    "description": "",
-    "license": "Unlicensed",
-    "theme": "Clients/lucord.theme.css"
+    "updater":{
+      "type": "github",
+      "id": "WmeDiscord/Lucord"
+    },
+    "author": {
+      "name": "Wme",
+      "discordID": "865632950443835392",
+      "github": "WmeLuna"
+    },
+    "description": "A Lightweight theme that adds a bunch of small changes",
+    "license": "MIT",
+    "type": "replugged-theme",
+    "main": "theme.scss"
   }

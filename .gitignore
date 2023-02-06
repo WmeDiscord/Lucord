@@ -1,2 +1,6 @@
 CNAME
 .vscode/
+node_modules/
+.parcel-cache/
+dist/
+bundle/
